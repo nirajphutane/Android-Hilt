@@ -11,7 +11,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.np.hilt.base_pkgs.BaseFragment
 import com.np.hilt.ui.theme.HiltTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PracticeFragment: BaseFragment() {
 
     @Composable

@@ -5,7 +5,9 @@ import androidx.activity.viewModels
 import com.np.hilt.base_pkgs.WrapperActivity
 import com.np.hilt.base_pkgs.viewBinding
 import com.np.hilt.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : WrapperActivity() {
 
     private val viewModel: MainActivityViewModel by viewModels()
