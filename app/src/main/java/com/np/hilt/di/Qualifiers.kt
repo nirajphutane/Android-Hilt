@@ -9,3 +9,7 @@ annotation class PetrolEngineQualifier
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class DieselEngineQualifier
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class Speed

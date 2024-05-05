@@ -49,6 +49,14 @@ class PracticeFragment: BaseFragment() {
                     ) {
                         Text(text = "Hilt Practical 2")
                     }
+
+                    Button(
+                        onClick = {
+                            navigateTo(R.id.practical_fragment_3)
+                        }
+                    ) {
+                        Text(text = "Hilt Practical 3")
+                    }
                 }
             }
         }

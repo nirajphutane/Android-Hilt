@@ -19,4 +19,9 @@
         android:id="@+id/practical_fragment_2"
         android:name="com.np.hilt.practices.practical_2.PracticalFragment2"
         android:label="Practical Fragment 2" />
+
+    <fragment
+        android:id="@+id/practical_fragment_3"
+        android:name="com.np.hilt.practices.practical_3.PracticalFragment3"
+        android:label="Practical Fragment 3" />
 </navigation>
